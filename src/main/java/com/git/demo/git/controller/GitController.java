@@ -13,6 +13,12 @@ public class GitController {
 		return "running!";
 	}
 	
+	@GetMapping("/user")
+	public String getUser() {
+		return "aman";
+	}
+	
+	
 	
 	
 }
